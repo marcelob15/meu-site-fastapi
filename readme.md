@@ -6,3 +6,6 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
 uvicorn main:app --reload --port 9000
+
+
+pip freeze > requirements.txt
