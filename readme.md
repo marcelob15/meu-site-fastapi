@@ -23,3 +23,6 @@ CREATE TABLE IF NOT EXISTS acessos (
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     plataforma TEXT
 );
+
+
+SELECT * FROM acessos;
